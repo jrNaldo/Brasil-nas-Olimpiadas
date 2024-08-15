@@ -1,10 +1,10 @@
 @charset "UTF-8";
 :root{
-    --cor1:#BFB78F;
-    --cor2:#025E73;
-    --cor3:#011F26;
-    --cor4:#A5A692;
-    --cor5:#F2A71B;
+    --cor1:#ffeca8;
+    --cor2:#363124;
+    --cor3:#615430;
+    --cor4:#E1A601;
+    --cor5:#B68D1E;
 }
 *{
     margin: 0px;
@@ -14,7 +14,7 @@ body{
     background-color: var(--cor1);
 }
 header{
-    background-color: var(--cor5);
+    background-color: var(--cor2);
     color: white;
     text-align: center;
     font-size: 8dvh;
@@ -24,10 +24,21 @@ nav{
     background-color: var(--cor2);
     color: white;
     font-size: 1.2em;
+    padding: 8px;
 }
 nav>a{
-    
+    padding: 8px;
+    margin: 8px; 
+    text-decoration: none;
+    color: rgb(235, 229, 145);
+    text-align:unset;
 }
+nav>a:hover{
+    color: var(--cor2);
+    background-color: var(--cor1);
+    border-radius: 5px;
+}
+
 main{
     margin: auto;
     min-width: 300px;
