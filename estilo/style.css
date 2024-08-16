@@ -1,10 +1,15 @@
 @charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Color+Emoji&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Passion+One:wght@400;700;900&family=Sriracha&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Noto+Color+Emoji&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Passion+One:wght@400;700;900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Sriracha&display=swap');
+
 :root{
     --cor1:#ffeca8;
     --cor2:#363124;
     --cor3:#615430;
     --cor4:#E1A601;
     --cor5:#B68D1E;
+    --font:'Rubik' ;
 }
 *{
     margin: 0px;
@@ -12,23 +17,25 @@
 }
 body{
     background-color: var(--cor1);
+    font-family: var(--font);
+   
 }
 header{
     background-color: var(--cor2);
     color: white;
     text-align: center;
-    font-size: 8dvh;
+    font-size: 7dvh;
     padding: 20px;
 }
 nav{
     background-color: var(--cor2);
     color: white;
-    font-size: 1.2em;
-    padding: 8px;
+    font-size: 1.1em;
+    padding: 5px;
 }
 nav>a{
-    padding: 8px;
-    margin: 8px; 
+    padding: 12px;
+    margin: 12px; 
     text-decoration: none;
     color: rgb(235, 229, 145);
     text-align:unset;
@@ -46,7 +53,17 @@ main{
     background-color: white;
     border-radius: 10px;
     padding: 5px;
+    
 }
+main>p,h1, h2{
+    margin: 10px;
+}
+p{
+    font-size: 1.2em;
+    text-align: justify;
+    padding: 8px;
+}
+
 section{
     background-color: white;
     background-image: url(../imagem/brasil-olimpiadas.jpg);
@@ -54,4 +71,17 @@ section{
     background-position: center center;
     box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.384);   
 }
-
+aside{
+    background-color: var(--cor3);
+    border-radius: 5px;
+    padding: 8px;
+    color: white;
+    box-shadow: 8px 6px 13px rgba(0, 0, 0, 0.363);
+}
+aside>ol{
+    list-style-position: inside;
+    columns: 2;
+}
+li{
+    padding: 8px;
+}
