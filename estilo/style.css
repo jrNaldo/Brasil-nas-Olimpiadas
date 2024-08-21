@@ -87,10 +87,17 @@ aside>ol{
 li{
     padding: 8px;
 }
+caption{
+    text-align: center;
+}
 table{
     border-collapse: collapse;
+    
+}
+th{
+    background-color: darkgray;
 }
 th,tr,td{
     border: 1px solid black;
-    padding: 8px;
+    
 }
