@@ -91,7 +91,7 @@ caption{
     text-align: center;
 }
 div.tabela{
-    overflow-x: scroll;
+    overflow-x: auto;
 }
 table{
     border-collapse: collapse;
@@ -105,4 +105,26 @@ th,tr,td{
     border: 1px solid black;
     padding: 10px;
     text-align: center;
+}
+tr:nth-child(even){
+    background-color: darkgray ;
+}
+#dado{
+    text-decoration: none;
+    color: white;
+}
+#dado:hover{
+    background-color: var(--cor3);
+    color: var(--cor1);
+    border-radius: 10px;
+    padding: 8px;
+}
+#parag{
+    text-align: center;
+    font-size: 0.9em;
+}
+footer{
+    background-color: var(--cor2);
+    color: white;
+   
 }
