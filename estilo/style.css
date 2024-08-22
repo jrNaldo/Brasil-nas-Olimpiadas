@@ -99,6 +99,7 @@ div.tabela{
 .medalha{
     background-image: url(../imagem/Medalhas-Olimpiada.jpeg);
     background-size: cover;
+    background-position: center center;
 }
 table{
     border-collapse: collapse;
