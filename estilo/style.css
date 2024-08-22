@@ -21,11 +21,13 @@ body{
    
 }
 header{
-    background-color: var(--cor2);
     color: white;
     text-align: center;
-    font-size: 7dvh;
+    font-size: 5dvh;
     padding: 20px;
+}
+header,nav{
+    background-image: linear-gradient(to right, var(--cor2), var(--cor3));
 }
 nav{
     background-color: var(--cor2);
