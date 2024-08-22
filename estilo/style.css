@@ -59,7 +59,7 @@ main{
     padding: 5px;
     
 }
-main>p,h1, h2{
+main>p,h1, h2,h3{
     margin: 10px;
 }
 p{
@@ -68,7 +68,9 @@ p{
     padding: 8px;
 }
 
-section{
+div.line{
+    display: block;
+    height: 250px;
     background-color: white;
     background-image: url(../imagem/brasil-olimpiadas.jpg);
     background-size: cover;
@@ -85,6 +87,10 @@ aside{
 aside>ol{
     list-style-position: inside;
     columns: 2;
+}
+section>ul{
+    list-style-position: inside;
+    font-size: 0.97em;
 }
 li{
     padding: 8px;
@@ -103,11 +109,26 @@ div.tabela{
     background-size: cover;
     background-position: center center;
 }
+.escrita{
+    display: block;
+    background-color: rgba(0, 0, 0, 0.39);
+    justify-items: left;
+    
+}
+aside.santos{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    background-image: url(../imagem/daiane.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 400px; 
+}
 table{
     border-collapse: collapse;
     margin: auto;
     margin-bottom: 8px;
-    width: 500px;
+
 }
 th{
     background-color: darkgray;
