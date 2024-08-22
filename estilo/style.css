@@ -89,13 +89,22 @@ li{
 }
 caption{
     text-align: center;
+    font-size: 1.3em;
+    margin: 10px;
 }
 div.tabela{
     overflow-x: auto;
+    
+}
+.medalha{
+    background-image: url(../imagem/Medalhas-Olimpiada.jpeg);
+    background-size: cover;
 }
 table{
     border-collapse: collapse;
     margin: auto;
+    margin-bottom: 8px;
+    width: 500px;
 }
 th{
     background-color: darkgray;
@@ -124,6 +133,7 @@ tr:nth-child(even){
     font-size: 0.9em;
 }
 footer{
+
     background-color: var(--cor2);
     color: white;
    
